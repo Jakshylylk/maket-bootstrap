@@ -1,0 +1,46 @@
+ul {
+  list-style-type: none;
+  width: 500px;
+}
+.btn-danger {
+  height: 48px;
+  border-radius: 0;
+  border: none;
+}
+.main-image {
+  background: url("./media/3792\ 1.png") no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+li {
+  position: relative;
+}
+.active::after {
+  content: "";
+  height: 2px;
+  width: 25px;
+  background-color: red;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+}
+.about-us h1 {
+  font-size: 50px;
+}
+.about-us h4 {
+  font-weight: bold;
+}
+.services {
+  background-color: #ecf0f1;
+}
+.lima {
+  width: 100px;
+  height: 100px;
+}
+.maya {
+  font-size: 15px;
+  font-weight: bold;
+}
+.text {
+  font-size: 12px;
+}
